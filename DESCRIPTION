@@ -1,0 +1,18 @@
+Package: survivalBayes
+Type: Package
+Title: Bayesian Survival Analysis
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Victor", "Ney",
+      email = "victor.s.ney@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Implementation of Bayesian survival models with and without covariates.
+    Optimized for common priors (normal, gamma, beta) and explores modern Bayesian inference techniques, such as Variational Bayes, for efficient computation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
