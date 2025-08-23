@@ -11,8 +11,11 @@ Authors@R: c(
   )
 Description: Implementation of Bayesian survival models with and without covariates.
     Optimized for common priors (normal, gamma, beta) and explores modern Bayesian inference techniques, such as Variational Bayes, for efficient computation.
+Imports: Rcpp (>= 1.1.0)
+LinkingTo: Rcpp, RcppArmadillo
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+URL: https://victorney.github.io/survivalBayes/
